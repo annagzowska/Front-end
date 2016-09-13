@@ -13,7 +13,7 @@ function palindrom(slowo) {
   }
 
   if (sprawdz >= slowo.length) {
-    console.log("Slowo " + slowo + " jest palindromem. Wygrales karton ciastek!.")
+    console.log("Slowo " + slowo + " jest palindromem. Wygrales karton ciastek!")
   } else {
     console.log("Slowo " + slowo + " nie jest palindromem. Musisz sam kupic ciastka :)")
   }
