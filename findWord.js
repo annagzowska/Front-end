@@ -15,3 +15,16 @@ function findWord(tab1, word1) {
 }
 
 findWord(table1, "igla");
+
+// // function, which sums the elements of the table
+
+function sumTable(a) {
+  var result = 0;
+  for (i = 0; i < a.length; i++) {
+    result += a[i];
+  }
+  return result;
+
+}
+
+console.log(sumTable([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
