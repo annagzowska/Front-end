@@ -1,3 +1,5 @@
+// function, which search for a word given in a table
+
 var table1 = ["cos", "siano", "stodola", "igla", "kubek", "biurko"];
 
 function findWord(tab1, word1) {
