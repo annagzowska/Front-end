@@ -13,9 +13,9 @@ function palindrom(slowo) {
   }
 
   if (sprawdz >= slowo.length) {
-    console.log("S³owo " + slowo + " jest palindromem. Wygra³eœ karton ciastek!.")
+    console.log("Slowo " + slowo + " jest palindromem. Wygrales karton ciastek!.")
   } else {
-    console.log("S³owo " + slowo + " nie jest palindromem. Musisz sam kupiæ ciastka :)")
+    console.log("Slowo " + slowo + " nie jest palindromem. Musisz sam kupic ciastka :)")
   }
 
 }
