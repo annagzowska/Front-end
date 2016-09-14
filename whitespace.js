@@ -19,7 +19,7 @@ function whiteSpace(str) {
   for (i = 0; i < str.length - 1; i++) {
     text += temp[i] + blank;
   }
-  text = text + temp[temp.length - 1];
+  text += temp[temp.length - 1];
 	//console.log(text.length);
   return text;
 }
