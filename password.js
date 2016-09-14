@@ -1,3 +1,5 @@
+//function, which validates if the password contains min. 8 characters, 1 upper-case letter and 1 number
+
 function validatePass(passw) {
   if (passw.length < 8) {
     return "Minimal length of the password is 8 characters.";
