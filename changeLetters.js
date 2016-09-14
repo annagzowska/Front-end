@@ -1,7 +1,7 @@
 //function, which changes upper-case letters to lower-case letters and vice versa
 
 function changeLetters(str) {
-  tekst = str.split("");
+  let tekst = str.split("");
   for (let i = 0; i < str.length; i++) {
     if (str[i] === str[i].toLowerCase()) {
       tekst[i] = str[i].toUpperCase();
