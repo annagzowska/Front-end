@@ -6,7 +6,7 @@ function changeLetters(str) {
     if (str[i] === str[i].toLowerCase()) {
       tekst[i] = str[i].toUpperCase();
     }
-    else if (str[i] === str[i].toUpperCase()) {
+    else {
       tekst[i] = str[i].toLowerCase();
     }
   }
