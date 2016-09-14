@@ -1,7 +1,7 @@
 //function, which adds whitespaces between every letter of the text given
 
 function whiteSpace(str) {
-    _temp = str.split("").join(" ");
+   let _temp = str.split("").join(" ");
 	//console.log(_temp.length);
     return _temp;
 }
