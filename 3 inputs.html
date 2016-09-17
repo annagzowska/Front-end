@@ -1,0 +1,32 @@
+//type something in inputs, after clicking "alert" button you will get the value of random input.
+
+<html>
+<head></head>
+<body>
+<hr>
+<input type="tekst" id="inp1" placeholder="input1">
+<input type="tekst" id="inp2" placeholder="input2">
+<input type="tekst" id="inp3" placeholder="input3"><br>
+<button type="button" id="clickMe">Alert</button>
+<hr>
+
+<script>
+
+document.getElementById("clickMe").addEventListener("click", function() {
+	let losowa = Math.floor((Math.random() * 3) + 1);
+  switch(losowa){
+  case 1:
+  	alert(document.getElementById("inp1").value);
+  	break;
+  case 2:
+  	alert(document.getElementById("inp2").value);
+  	break;
+  case 3:
+  	alert(document.getElementById("inp3").value);
+  	break;
+  }
+});
+
+</script>
+
+</body>
