@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+<input type="tekst" id="inp">
+<button type="button" id="przycisk">Alert</button>
+
+<script>
+
+document.getElementById("inp").addEventListener("keyup", function(){
+  console.log(document.getElementById("inp").value);
+});
+document.getElementById("przycisk").addEventListener("click", function(){
+  alert(document.getElementById("inp").value);
+});
+</script>
+
+</body>
