@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Animacja</title>
+
+<style>
+
+.container {
+  position: absolute;
+  background: white;
+  height: 300px;
+  width: 900px;
+}
+.ball {
+  background-image: url("http://www.nietylkona.pl/media/products/daf19410f20d0a89cd970b7f046ae94f/images/thumbnail/large_malpka.jpg?lm=1457113176");
+  height: 296px;
+  width: 444px;
+ }
+
+</style>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+
+<div class='container'>
+  <div class='ball'></div>
+</div>
+
+<script>
+
+for (let i = 0; i <= 100; i++) {
+  $('.ball').animate({
+    marginLeft: '400',
+  }, 6000);
+  if ($('.ball').css('margin', '400')) {
+    $('.ball').animate({
+      marginLeft: '0',
+    }, 6000)
+  };
+};
+
+</script>
+
+</body>
+
+</html>
+
