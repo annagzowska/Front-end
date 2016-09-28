@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Animacja</title>
+
+<style>
+
+.container {
+  position: absolute;
+  background: #606c88;
+  background: -moz-linear-gradient(left, #606c88 0%, #3f4c6b 32%, #3f4c6b 32%);
+  background: -webkit-linear-gradient(left, #606c88 0%, #3f4c6b 32%, #3f4c6b 32%);
+  background: linear-gradient(to right, #606c88 0%, #3f4c6b 32%, #3f4c6b 32%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=1);
+  height: 300px;
+  width: 900px;
+}
+
+.ball {
+  background: #eeeeee;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  margin-top: 135px;
+}
+
+</style>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+
+<div class='container'>
+  <div class='ball'></div>
+</div>
+
+<script>
+
+for (let i = 0; i <= 100; i++) {
+  $('.ball').animate({
+    marginLeft: '870',
+  }, 3000);
+
+  if ($('.ball').css('margin', '870')) {
+    $('.ball').animate({
+      marginLeft: '0',
+    }, 3000)
+  };
+};
+
+</script>
+
+</body>
+
+</html>
+
