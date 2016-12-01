@@ -1,2 +1,2 @@
 # JavaScript
-some scripts written by me in pure JavaScript and few using jQuery
+some scripts written by me in pure JavaScript/HTML5/CSS3 and few using jQuery and SASS
