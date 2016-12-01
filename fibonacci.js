@@ -1,14 +1,9 @@
-//functions which returns Fibonacci numbers
-
-function fibNum(howMany){
-	let result = [];
-  result[0] = 0;
-  result[1] = 1;
-  
-	for(i = 2; i < howMany; i++){
-  	result[i] = result[i-1] + result[i-2];
-  }
-console.log(result);
+function fibonacci(n) {
+   if (n < 2){
+     return 1;
+   }else{
+     return fibonacci(n-2) + fibonacci(n-1);
+   }
 }
 
-fibNum(9);
+console.log(fibonacci(7));

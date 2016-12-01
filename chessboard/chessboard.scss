@@ -1,0 +1,33 @@
+$td-color: #fff;
+$td-even-color: #000;
+$td-hover-color: yellow;
+table {
+  border: 2px solid red;
+  tr {
+    td {
+      background-color: $td-even-color;
+      padding: 10px;
+      &:hover {
+        background-color: $td-hover-color;
+      }
+    }
+    &:nth-child(even) {
+      td:nth-child(odd) {
+        background-color: $td-color;
+        &:hover {
+          background-color: $td-hover-color;
+        }
+      }
+    }
+    &:nth-child(odd) {
+      td:nth-child(even) {
+        background-color: $td-color;
+        &:hover {
+          background-color: $td-hover-color;
+        }
+      }
+    }
+  }
+}
+
+
