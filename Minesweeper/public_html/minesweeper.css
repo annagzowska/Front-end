@@ -1,0 +1,83 @@
+td{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    user-select:none;
+    -moz-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+}
+
+td:hover{
+    background-color: #6596ea; 
+}
+
+td.cell{
+    background: lightgray;
+    user-select:none;
+    text-align: center;
+    color: #4366a1;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+td.cell0{
+    background: lightgray;
+    color: lightgray;
+    user-select:none;
+}
+
+td.bomb{
+    background: url('https://image.freepik.com/darmowe-ikony/bomba_318-48367.png') no-repeat;
+    background-size: 25px 25px;
+    color: transparent;
+}
+
+td.hidden{
+    background-color: #4366a1;
+    color: #4366a1;
+}
+
+td.flag{
+    background: url('http://previews.123rf.com/images/chuhail/chuhail1303/chuhail130300317/18500236-Red-flag-icon-isolated-on-white-Stock-Vector.jpg') no-repeat;
+    background-size: 25px 25px;
+}
+
+#message-error{
+    display: none;
+    border: 2px solid lightgray;
+    background: #4366a1;
+    color: #fff;
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+button{
+    cursor: pointer;
+    padding:5px;
+    background-color:#537dc3;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #6596ea; 
+}
+
+span{
+    padding:5px;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+#size{
+    background-color: #4366a1;
+    width: auto;
+    height: 30px;
+    border: 2px solid lightgray;
+}
