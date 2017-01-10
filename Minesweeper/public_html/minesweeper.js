@@ -139,12 +139,16 @@ function initSaper(side, bombs) {
 
 initSaper(5, 5);
 
-$('#_5').on('click', function () {
-    initSaper(5, 5);
-});
-$('#_10').on('click', function () {
-    initSaper(10, 10);
-});
-$('#_15').on('click', function () {
-    initSaper(15, 15);
+
+
+$(function(){
+    $('#_5').on('click', function () {
+        initSaper(5, 5);
+    });
+    $('#_10').on('click', function () {
+        initSaper(10, 10);
+    });
+    $('#_15').on('click', function () {
+        initSaper(15, 15);
+    });
 });
